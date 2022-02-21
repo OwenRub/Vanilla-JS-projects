@@ -113,6 +113,9 @@ label {
 	border: none;
 	background: #e3e3e3;
 }
+#user-status {
+	font-size: 0.6rem;
+}
 /*SIGN IN BUTTON*/
 .login-btn {
 	padding: 0.6rem 1.8rem;
