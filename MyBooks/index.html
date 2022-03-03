@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--INTER FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<!--UNICONS-->
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>MyBooks</title>
+  </head>
+  <body>
+    <header>
+      <h1><i style="color: #52d169;" class="uil uil-book-alt"></i>MyBooks</h1>
+      <p>Coded by: <a href="https://github.com/OwenRub" target="_blank">Owen Rubio</a></p>
+    </header>
+    <hr class="styled">
+    <div class="container content">
+      <div class="form-side">
+        <form id="create-book" class="marg20">
+      	  <label for="isbn" class="blck">ISBN</label>
+      	  <input type="text" name="isbn" id="isbn" class="blck">
+      	  <label for="title" class="blck">Title</label>
+      	  <input type="text" name="title" id="title" class="blck">
+      	  <label for="year" class="blck">Year</label>
+      	  <input type="number" name="year" id="year" class="blck">
+          <div class="center">
+      	    <button type="button" name="commit" class="blck btn save">Save</button>
+          </div>
+      	</form>
+      	<br>
+      	<form id="delete-book">
+          <label for="dltList" class="blck">Delete a book</label>
+      	  <select name="dltList" class="marg14"> <!-- TO LIST OPTIONS --> </select>
+          <div class="center">
+      	    <button type="button" name="dltBtn" class="blck btn del marg20">Delete</button>
+          </div>
+          <br>
+          <label for="clrBtn" class="blck">Clear Database</label>
+          <div class="center">
+      	    <button type="button" name="clrBtn" class="blck btn clear marg20">Clear</button>
+          </div>
+      	</form>
+      </div>
+      <div class="table-side">
+      	<table id="book-list" class="table">
+      	  <thead><tr><th>ISBN</th><th>Title</th><th>Year</th></tr></thead>
+      	  <tbody> <!-- TO LIST BOOKS--> </tbody>
+      	</table>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="Book.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
