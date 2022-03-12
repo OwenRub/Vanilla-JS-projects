@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--UNICONS-->
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<!-- GOOGLE FONT: hind siliguri-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+	<!--CSS STYLE-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Keep Notes</title>
+</head>
+<body>
+<main>
+	<header class="top">
+		<div class="container top-content">
+			<h1>Keep Notes</h1>
+			<p>Coded by: <a href="https://github.com/OwenRub" target="_blank">Owen Rubio</a></p>
+			<form id="note-form" class="flexCol">
+				<input type="text" class="format" name="title" id="title" placeholder="Title">
+				<input type="textarea" class="format" name="note-content" id="content" placeholder="Content">
+				<button id="btn" class="add-btn format" type="button">Add note</button>
+			</form>
+			<p id="message"></p>
+		</div>
+	</header>
+		
+	<div id="notes-container" class="notes container">
+		<!-- CARD NOTES SPACE -->
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</main>
+</body>
+</html>
