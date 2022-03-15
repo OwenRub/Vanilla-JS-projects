@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Rock Paper Scissors</title>
+</head>
+<body>
+<main class="flex-col">
+	<div id="content" class="content">
+		<div id="game" class="game flex-col round-white">
+			<div id="options" class="options">
+				<img src="http://www1.lasalle.edu/~blum/c230wks/RockPaperScissors/R.jpg" alt="Rock" class="image-option">
+				<img src="http://www1.lasalle.edu/~blum/c230wks/RockPaperScissors/P.jpg" alt="Paper" class="image-option">
+				<img src="http://www1.lasalle.edu/~blum/c230wks/RockPaperScissors/S.jpg" alt="Scissors" class="image-option">
+			</div>
+			<h1>- Vs -</h1>
+			<div id="machine-answer" class="flex-col"></div>
+			<div class="btn">
+				<button id="play-again-btn" type="button">Play again</button>
+			</div>
+		</div>
+		<div id="score" class="score flex-col round-white">
+			<div id="title" class="title">
+				<h1>Score</h1>
+			</div>
+			<div class="score-state flex-col">
+				<div>
+					<h2 id="message">Choose...</h2>
+				</div>
+				<div>
+					<h2>Wins</h2>
+					<span id="wins" class="score-box"></span>
+				</div>
+				<div>
+					<h2>Draws</h2>
+					<span id="draws" class="score-box"></span>
+				</div>
+				<div>
+					<h2>Losses</h2>
+					<span id="losses" class="score-box"></span>
+				</div>
+			</div>
+			<div class="btn">
+				<button id="reset-btn" type="button">Reset</button>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</main>
+</body>
+</html>
