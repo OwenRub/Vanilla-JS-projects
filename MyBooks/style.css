@@ -37,7 +37,7 @@ input {
 	box-sizing: border-box;
 	width: 100%;
 	font-size: 14px;
-	border: 1px solid #c4c4c4;
+	border: 1px solid #858585;
 }
 label {
 	margin-bottom: 5px;
@@ -46,7 +46,7 @@ label {
 select {
 	padding: 6px;
 	width: 100%;
-	border: 1px solid #c4c4c4;
+	border: 1px solid #858585;
 	font-size: 14px;
 }
 .marg20 {
@@ -75,13 +75,13 @@ select {
 .btn:active {
 	opacity: 0.8;
 }
-.save:hover {
+.save {
 	background: #528252;
 }
-.del:hover {
+.del {
 	background: #c73f1a;
 }
-.clear:hover {
+.clear {
 	background: darkred;
 }
 .table{
@@ -93,7 +93,7 @@ select {
 	font-size: 15px;
 }
 .table thead th {
-	border-bottom: 1px solid #c4c4c4;
+	border-bottom: 1px solid #858585;
 }
 a{
 	text-decoration: none;
