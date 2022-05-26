@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Trivia App</title>
+</head>
+<body>
+  <main class="board">
+
+    <!-- GETUSERNAME -->
+    <div id="registration">
+      <label for="user-name">Type your name <span id="user-msg"></span></label>
+      <input id="user-name" type="text" minlength="4" maxlength="35" autocomplete="off">
+      <div>
+        <button id="play-btn" disabled>Play</button>
+      </div>
+    </div>
+
+    <!-- SHOW CATEGORIES -->
+    <div id="categories">
+      
+    </div>
+
+    <!-- START GAME (QUESTIONS) -->
+    <div id="trivia">
+      <div><p id="question"></p></div>
+      <div id="options" class="options">
+        <div class="answer"></div>
+        <div class="answer"></div>
+        <div class="answer"></div>
+        <div class="answer wrong"></div>
+      </div>
+    </div>
+
+    <!-- SHOW SCOREBOARD -->
+    <div id="score-board">
+      <table>
+        <thead>
+          <tr>
+            <th>Position</th>
+            <th>Username</th>
+            <th>Score</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody id="score-list">
+          
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
