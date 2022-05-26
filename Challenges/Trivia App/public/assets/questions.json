@@ -1,0 +1,412 @@
+{
+  "quiz": {
+      "Sports": [
+          {
+              "question": "Which soccer player has the most Ballon d'Ors?",
+              "options": [
+                  "Cristiano Ronaldo",
+                  "Johan Cruyff",
+                  "Lionel Messi",
+                  "Michel Platini"
+              ],
+              "answer": "Lionel Messi"
+          },
+          {
+            "question": "What is the most watched sport in the world?",
+            "options": [
+                "Soccer",
+                "Tennis",
+                "Cricket",
+                "Basketball"
+            ],
+            "answer": "Soccer"
+          },
+          {
+            "question": "Which soccer team won the 2002 World Cup?",
+            "options": [
+                "Croatia",
+                "England",
+                "France",
+                "Brazil"
+            ],
+            "answer": "Brazil"
+          },
+          {
+            "question": "Which country has won the most Olympic medals in history?",
+            "options": [
+                "United States",
+                "England",
+                "Russia",
+                "China"
+            ],
+            "answer": "United States"
+          },
+          {
+            "question": "Which athlete has won the most gold medals at the Olympics?",
+            "options": [
+                "Michael Phelps",
+                "Larisa Latynina",
+                "Mark Spitz",
+                "Carl Lewis"
+            ],
+            "answer": "Michael Phelps"
+          },
+          {
+            "question": "Which basketball team has the most NBA titles?",
+            "options": [
+                "San Antonio Spurs",
+                "Boston Celtics",
+                "Chicago Bulls",
+                "Golden State Warriors"
+            ],
+            "answer": "Boston Celtics"
+          },
+          {
+            "question": "What is the team that has won the most World Cups?",
+            "options": [
+                "France",
+                "England",
+                "Brazil",
+                "Argentina"
+            ],
+            "answer": "Brazil"
+          },
+          {
+            "question": "Which club has won the most champions league?",
+            "options": [
+                "Barcelona",
+                "Juventus",
+                "Real Madrid",
+                "Liverpool"
+            ],
+            "answer": "Real Madrid"
+          },
+          {
+            "question": "How many gold medals has Usain Bolt won?",
+            "options": [
+                "3",
+                "7",
+                "8",
+                "10"
+            ],
+            "answer": "8"
+          },
+          {
+            "question": "Which Formula 1 driver has won the most races in the history of the sport?",
+            "options": [
+                "Max Verstappen",
+                "Lewis Hamilton",
+                "Sergio Perez",
+                "George Russell"
+            ],
+            "answer": "Lewis Hamilton"
+          }
+        ],
+      "Geography": [
+          {
+              "question": "What is the capital of russia?",
+              "options": [
+                  "Moscow",
+                  "London",
+                  "Rome",
+                  "Kiev"
+              ],
+              "answer": "Moscow"
+          },
+          {
+              "question": "What is the world's largest country?",
+              "options": [
+                  "Brazil",
+                  "Canada",
+                  "United States",
+                  "Russia"
+              ],
+              "answer": "Russia"
+          },
+          {
+            "question": "What is the strait that connects africa and europe?",
+            "options": [
+                "Strait of Gibraltar",
+                "Strait of Bering",
+                "Strait of Malaca",
+                "Strait of Bonifacio"
+            ],
+            "answer": "Strait of Gibraltar"
+          },
+          {
+            "question": "What is the name of the tallest mountain in the world?",
+            "options": [
+                "K2",
+                "Mount Everest",
+                "Denali",
+                "Kanchenjunga"
+            ],
+            "answer": "Mount Everest"
+          },
+          {
+            "question": "What is the capital of Canada?",
+            "options": [
+                "Ontario",
+                "Alberta",
+                "Ottawa",
+                "Quebec"
+            ],
+            "answer": "Ottawa"
+          },
+          {
+            "question": "How many countries are there in the United Kingdom?",
+            "options": [
+                "2",
+                "4",
+                "5",
+                "1"
+            ],
+            "answer": "4"
+          },
+          {
+            "question": "What river flows through the Grand Canyon?",
+            "options": [
+                "Colorado River",
+                "Yangtze River",
+                "The Nile River",
+                "The Amazon"
+            ],
+            "answer": "Colorado River"
+          },
+          {
+            "question": "Which continent is Cambodia located in?",
+            "options": [
+                "Africa",
+                "America",
+                "Oceania",
+                "Asia"
+            ],
+            "answer": "Asia"
+          },
+          {
+            "question": "Which is the largest island in the world?",
+            "options": [
+                "Japan",
+                "Maldives",
+                "Greenland",
+                "Palawan"
+            ],
+            "answer": "Greenland"
+          },
+          {
+            "question": "Which is the world's largest port?",
+            "options": [
+                "Singapore",
+                "Shenzhen",
+                "Ningbo-Zhoushan",
+                "Shanghai"
+            ],
+            "answer": "Shanghai"
+          }
+        ],
+        "Art": [
+            {
+                "question": "Which artist famously cut off his own ear?",
+                "options": [
+                    "Vincent Van Gogh",
+                    "Claude Monet",
+                    "Salvador Dali",
+                    "Pablo Picasso"
+                ],
+                "answer": "Vincent Van Gogh"
+            },
+            {
+                "question": "Where can you see the Mona Lisa?",
+                "options": [
+                    "The Guggenheim Museum",
+                    "Tate Britain",
+                    "The Louvre",
+                    "The Pompidou Centre"
+                ],
+                "answer": "The Louvre"
+            },
+            {
+              "question": "What artistic style is Pablo Picasso known for?",
+              "options": [
+                  "Surrealism",
+                  "Cubism",
+                  "Impressionism",
+                  "Pointillism"
+              ],
+              "answer": "Cubism"
+            },
+            {
+              "question": "Who painted the Water Lilies, a series of 250 paintings made over a period of 30 years?",
+              "options": [
+                  "Henri Matisse",
+                  "Claude Monet",
+                  "Paul Cezanne",
+                  "Édouard Manet"
+              ],
+              "answer": "Claude Monet"
+            },
+            {
+              "question": "Which popular children's cartoon characters are named after Italian Renaissance artists?",
+              "options": [
+                  "Teenage Mutant Ninja Pandas",
+                  "Teenage Mutant Ninja Tortoises",
+                  "Teenage Mutant Ninja Turtles",
+                  "Teenage Mutant Ninja Spiders"
+              ],
+              "answer": "Teenage Mutant Ninja Turtles"
+            },
+            {
+              "question": "Which brand of soup featured in one of Andy Warhol's most famous pop art pieces?",
+              "options": [
+                  "Heinz",
+                  "Campbell's",
+                  "Baxters",
+                  "Knorr"
+              ],
+              "answer": "Campbell's"
+            },
+            {
+              "question": "The artist Kandinsky is considered the first for this type of art?",
+              "options": [
+                  "Romanticism",
+                  "Modernism",
+                  "Impressionism",
+                  "Abstract"
+              ],
+              "answer": "Abstract"
+            },
+            {
+              "question": "Which other painter is often associated with Francoise Gilot?",
+              "options": [
+                  "Pablo Picasso",
+                  "Leonardo Da Vinci",
+                  "Claude Monet",
+                  "Rembrandt"
+              ],
+              "answer": "Pablo Picasso"
+            },
+            {
+              "question": "Who was the first living person to have their art displayed in The Louvre?",
+              "options": [
+                  "Andy Warhol",
+                  "Frida Kahlo",
+                  "Georges Braque",
+                  "Salvador Dalí"
+              ],
+              "answer": "Georges Braque"
+            },
+            {
+              "question": "Which famous painter was also a sculptor, an architect, and an engineer?",
+              "options": [
+                  "Claude Monet",
+                  "Leonardo Da Vinci",
+                  "Michelangelo da Caravaggio",
+                  "Michelangelo Buonarroti"
+              ],
+              "answer": "Leonardo Da Vinci"
+            }
+          ],
+          "Histoy": [
+            {
+                "question": "What is considered the largest empire in history?",
+                "options": [
+                    "Mongol Empire",
+                    "Russian Empire",
+                    "Qing dynasty",
+                    "Spanish Empire"
+                ],
+                "answer": "Mongol Empire"
+            },
+            {
+                "question": "What year did the French Revolution start?",
+                "options": [
+                    "1792",
+                    "1820",
+                    "1789",
+                    "1764"
+                ],
+                "answer": "1789"
+            },
+            {
+              "question": "Who was the last Tsar of Russia?",
+              "options": [
+                  "Yaropolk I",
+                  "Sviatopolk I",
+                  "Nicholas II",
+                  "Yaroslav I"
+              ],
+              "answer": "Nicholas II"
+            },
+            {
+              "question": " How many Celtic languages are still spoken today?",
+              "options": [
+                  "4",
+                  "0",
+                  "6",
+                  "8"
+              ],
+              "answer": "6"
+            },
+            {
+              "question": "Where did Albert Einstein live before moving to the United States?",
+              "options": [
+                  "England",
+                  "France",
+                  "Russia",
+                  "Germany"
+              ],
+              "answer": "Germany"
+            },
+            {
+              "question": "During which war was a Christmas Truce called?",
+              "options": [
+                  "World War II",
+                  "World War I",
+                  "Pequot War",
+                  "English Civil War"
+              ],
+              "answer": "World War I"
+            },
+            {
+              "question": "How old was Queen Elizabeth II when she was crowned the Queen of England?",
+              "options": [
+                  "32",
+                  "46",
+                  "20",
+                  "27"
+              ],
+              "answer": "27"
+            },
+            {
+              "question": "Who was the first ruler of the Mongol Empire?",
+              "options": [
+                  "Genghis Khan",
+                  "Tolui Khan",
+                  "Oghul Qaimish",
+                  "Rinchinbal Khan"
+              ],
+              "answer": "Genghis Khan"
+            },
+            {
+              "question": "What year did India gain independence from Britain?",
+              "options": [
+                  "1967",
+                  "1945",
+                  "1912",
+                  "1947"
+              ],
+              "answer": "1947"
+            },
+            {
+              "question": "What was the capital city of the Inca Empire?",
+              "options": [
+                  "Cusco",
+                  "Machu Picchu",
+                  "Chavín de Huántar",
+                  "Lima"
+              ],
+              "answer": "Cusco"
+            }
+          ]
+  }
+}
