@@ -4,4 +4,4 @@ These projects are challenges that I find in different sources such as blogs, co
 
 > Click on the following links to visit each project
 
-1. [Trivia challenge](thetriviaapp.herokuapp.com)
+1. [Trivia challenge](https://thetriviaapp.herokuapp.com/)
