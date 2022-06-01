@@ -5,4 +5,7 @@
 1. [MyBooks](https://owenrub.github.io/Vanilla-JS-projects/MyBooks/)
 2. [KeepNotes](https://owenrub.github.io/Vanilla-JS-projects/KeepNotes/)
 3. [Log-in](https://owenrub.github.io/Vanilla-JS-projects/Log-in/)
-4. [Challenges](https://github.com/OwenRub/Vanilla-JS-projects/tree/main/Challenges)
+
+## Vanilla Javascript Challenges
+
+[Challenges](https://github.com/OwenRub/Vanilla-JS-projects/tree/main/Challenges)
