@@ -1,0 +1,101 @@
+:root{
+    font-family: 'Fredoka', sans-serif;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    background: /*#EBC4E0*/#6E8894;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.layout{
+    padding: 24px;
+    margin: 0 auto;
+    width: 630px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+button{
+    padding: 10px;
+    color: white;
+    border: none; border-radius: 6px;
+    background-color: black; cursor: pointer;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: gray;
+}
+.attemps{
+    margin-top: 10px;
+    padding: 0px 15px;
+    color: white;
+    background-color: #9C387B;
+    font-weight: lighter;
+}
+.feedback{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+#board{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#rank{
+    display: none;
+}
+#user-msg{
+    color: red;
+    font-size: 13px;
+}
+thead{
+    margin-bottom: 10px;
+}
+th{
+    border-bottom: 1px solid gray;
+}
+th, td{
+    padding: 8px;
+}
+tr td:nth-child(3){
+    text-align: center;
+}
+img{
+    margin: 2px;
+}
+img:hover{
+    cursor: pointer;
+}
+.dead-img{
+    margin: 2px;
+}
+.dead-img:hover{
+    cursor: default;
+}
+a {
+    text-decoration: none;
+    color: #BE4997;
+}
+p{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 690px){
+    .layout{
+        width: 420px;
+    }
+}
+@media (max-width: 460px){
+    .layout{
+        width: 315px;
+    }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width" scale="1.0">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<title>Memory game</title>
+</head>
+<body>
+	<div id="register" class="layout">
+		<label for="username">Write your user <span id="user-msg"></span></label>
+		<input id="username" type="text" minlength="4">
+		<button id="start-btn" onclick="startGame()">Start</button>
+	</div>
+
+	<div id="main-board" style="display: none;" class="layout">
+		<div class="attemps">
+			<h3>Attemps: <span id="score"></span></h3>
+		</div>
+		<div>
+			<p>Coded by: <a href="https://github.com/OwenRub">Owen Rubio</a></p>
+		</div>
+		<div id="board">
+			
+		</div>
+		<div class="feedback">
+			<h3 id="feedback">Select a pair</h3>
+		</div>
+	</div>
+	<div id="rank" class="layout">
+		<table>
+			<thead>
+				<tr>
+					<th>Position</th>
+					<th>Name</th>
+					<th>Attemps</th>
+					<th>Time</th>
+				</tr>
+			</thead>
+			<tbody id="rank-container">
+				
+			</tbody>
+		</table>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
