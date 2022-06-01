@@ -5,3 +5,4 @@ These projects are challenges that I found in different sources such as blogs, c
 > Click on the following links to visit each project
 
 1. [Trivia challenge](https://thetriviaapp.herokuapp.com/)
+2. [Memory game](https://thememorychallenge.herokuapp.com/)
